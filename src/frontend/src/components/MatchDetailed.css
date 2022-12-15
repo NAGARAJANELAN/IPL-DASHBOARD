@@ -1,0 +1,17 @@
+.MatchDetailed{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.match-details{
+    margin: 8px;
+}
+.additional-details{
+    text-align: end;
+    
+}
+
+.additional-details p{
+    margin-bottom: 8px;
+}

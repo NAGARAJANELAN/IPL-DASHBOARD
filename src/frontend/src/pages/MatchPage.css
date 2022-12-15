@@ -1,0 +1,18 @@
+.MatchPage{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 16px;
+}
+
+.team-name-year{
+    text-align: center;
+    margin: 20px;
+    font-size: 250%;
+}
+.match-section{
+    margin: 10px;
+}
+.year-selector-section{
+    position: fixed;
+    align-self: top;
+}

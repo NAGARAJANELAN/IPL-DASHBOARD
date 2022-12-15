@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #083358;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  counter-reset: unset;
+}
+
+.win-card{
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #0da574;
+}
+.lose-card{
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #ff7e67;
+}
